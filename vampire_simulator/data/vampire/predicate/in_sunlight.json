@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "minecraft:overworld",
+        "position": {
+          "y": {
+            "min": -64,
+            "max": 320
+          }
+        },
+        "light": {
+          "light": {
+            "min": 15,
+            "max": 15
+          }
+        },
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  ]
+}
