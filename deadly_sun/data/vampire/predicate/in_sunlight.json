@@ -30,7 +30,16 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{Inventory:[{Slot:103b}]}"
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          }
         }
       }
     }
