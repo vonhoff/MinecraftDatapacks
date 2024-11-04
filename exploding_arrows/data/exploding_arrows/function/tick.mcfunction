@@ -11,4 +11,3 @@ execute at @e[type=arrow,nbt={inGround:1b}] run summon creeper ~ ~ ~ {ExplosionR
 
 # Remove arrows that hit something
 kill @e[type=arrow,nbt={inGround:1b}]
-
